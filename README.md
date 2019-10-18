@@ -1,4 +1,4 @@
-# IPSP C# SDK
+# IPSP C# SDK ()
 
 <p align="center">
   <img width="200" height="200" src="https://avatars0.githubusercontent.com/u/15383021?s=200&v=4">
@@ -14,7 +14,7 @@ A payment service provider (PSP) offers shops online services for accepting elec
 
 ## Installation
 
-SDK availble on NuGet.
+SDK availble on [NuGet](https://www.nuget.org/packages/CloudIpspSDK/).
 
 ## Requirements
 
