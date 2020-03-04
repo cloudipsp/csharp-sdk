@@ -4,9 +4,9 @@ using System.Data;
 using System.IO;
 using System.Linq;
 using System.Web;
-using System.Web.Script.Serialization;
 using CloudIpspSDK.Models;
 using CloudIpspSDK.Utils;
+using Newtonsoft.Json;
 
 namespace CloudIpspSDK.Response
 {
@@ -127,7 +127,7 @@ namespace CloudIpspSDK.Response
                     parsed = HttpUtility.ParseQueryString(response);
                     break;
                 default:
-                    var dict = new JavaScriptSerializer().Deserialize<Dictionary<string, string>>(response);
+                    var dict = JsonConvert.DeserializeObject<Dictionary<string, string>>(response);
                     if (dict != null)
                     {
                         parsed = new NameValueCollection(dict.Count);
