@@ -25,7 +25,7 @@ namespace CloudIpspSdkTest
             {
                 order_id = orderId,
                 amount = 10000,
-                order_desc = "checkout tests demo",
+                order_desc = "проверка! checkout tests demo",
                 currency = "USD"
             };
             var resp = new Url().Post(req);
@@ -47,7 +47,7 @@ namespace CloudIpspSdkTest
             {
                 order_id = orderId,
                 amount = 10000,
-                order_desc = "checkout tests demo",
+                order_desc = "Проверка! checkout tests demo",
                 currency = "USD"
             };
             var resp = new Url().Post(req);
@@ -68,7 +68,7 @@ namespace CloudIpspSdkTest
             {
                 order_id = Guid.NewGuid().ToString(),
                 amount = 10500,
-                order_desc = "checkout tests demo",
+                order_desc = "Проверка! checkout tests demo",
                 currency = "USD"
             };
             var resp = new Token().Post(req);
@@ -89,7 +89,7 @@ namespace CloudIpspSdkTest
             {
                 order_id = Guid.NewGuid().ToString(),
                 amount = 10500,
-                order_desc = "checkout tests demo",
+                order_desc = "Проверка! checkout tests demo",
                 currency = "USD"
             };
             var resp = new Token().Post(req);
@@ -110,7 +110,7 @@ namespace CloudIpspSdkTest
             {
                 order_id = Guid.NewGuid().ToString(),
                 amount = 10500,
-                order_desc = "checkout tests demo",
+                order_desc = "Проверка! checkout tests demo",
                 currency = "USD"
             };
             var resp = new Token().Post(req);
