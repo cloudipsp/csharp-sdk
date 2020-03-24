@@ -29,7 +29,7 @@ namespace CloudIpspSdkTest
             {
                 order_id = orderId,
                 amount = 10000,
-                order_desc = "checkout tests",
+                order_desc = "Проверка! checkout tests",
                 currency = "EUR",
                 card_number = card_number,
                 cvv2 = cvv2,
@@ -54,7 +54,7 @@ namespace CloudIpspSdkTest
             {
                 order_id = Guid.NewGuid().ToString(),
                 amount = 10000,
-                order_desc = "checkout tests",
+                order_desc = "Проверка! checkout tests",
                 currency = "EUR",
                 card_number = card_number_3ds,
                 cvv2 = cvv2,

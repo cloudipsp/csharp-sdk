@@ -28,7 +28,7 @@ namespace CloudIpspSdkTest
             {
                 order_id = oID,
                 amount = 10000,
-                order_desc = "checkout tests",
+                order_desc = "Проверка! checkout tests",
                 currency = "EUR",
                 receiver_card_number = card_number
             };
