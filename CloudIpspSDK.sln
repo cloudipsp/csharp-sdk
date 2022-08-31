@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudIpspSamples", "CloudIp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudIpspSdkTest", "CloudIpspSdkTest\CloudIpspSdkTest.csproj", "{C342EB9E-91CD-4E2B-BEB5-65214D90138F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudlpspSDKNetStandard", "CloudIpspSDK\CloudlpspSDKNetStandard.csproj", "{C039E2D9-E40E-4A8F-B2AF-27B2D97E0DCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudlpspSDK", "CloudIpspSDK\CloudlpspSDK.csproj", "{C039E2D9-E40E-4A8F-B2AF-27B2D97E0DCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
