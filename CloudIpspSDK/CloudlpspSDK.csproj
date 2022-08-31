@@ -2,6 +2,7 @@
 	<PropertyGroup>
 		<PackageVersion>1.0.3</PackageVersion>
 		<TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
