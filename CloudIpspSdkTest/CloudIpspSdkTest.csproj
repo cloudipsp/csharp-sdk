@@ -65,9 +65,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CloudIpspSDK\CloudlpspSDK.csproj">
+    <ProjectReference Include="..\CloudIpspSDK\CloudIpspSDK.csproj">
       <Project>{c039e2d9-e40e-4a8f-b2af-27b2d97e0dca}</Project>
-      <Name>CloudlpspSDK</Name>
+      <Name>CloudIpspSDK</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
