@@ -2,18 +2,19 @@
 <package>
   <metadata>
     <id>CloudIpspSDK</id>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <title>CloudIpspSDK</title>
     <authors>D.M.</authors>
     <owners>D.M.</owners>
     <projectUrl>https://fondy.eu</projectUrl>
 	<license type="expression">MIT</license>
+    <icon>images\icon.png</icon>
     <iconUrl>https://fondy.ua/wp-content/themes/Fondy_UA/img/fondy-logo.svg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A payment service provider (PSP) offers shops online services for accepting electronic payments by a variety of payment methods including credit card, bank-based payments such as direct debit, bank transfer, and real-time bank transfer based on online banking. Typically, they use a software as a service model and form a single payment gateway for their clients (merchants) to multiple payment methods.</description>
-    <releaseNotes>Initial release.</releaseNotes>
-    <copyright>Copyright 2019</copyright>
-    <tags>sdk payment</tags>
+    <releaseNotes>1.0.4 release.</releaseNotes>
+    <copyright>Copyright 2022</copyright>
+    <tags>sdk payment fondy</tags>
 	<dependencies>
 		<dependency id="Newtonsoft.Json" version="13.0.1" />
 	</dependencies>
@@ -21,5 +22,6 @@
   <files>
 	<file src="bin\Release\**\*.dll" target="lib" />
 	<file src="bin\Release\**\*.pdb" target="lib" />
+    <file src="images\icon.png" target="images\" />
   </files>
 </package>
