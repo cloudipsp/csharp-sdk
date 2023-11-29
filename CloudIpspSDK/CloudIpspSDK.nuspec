@@ -16,7 +16,7 @@
     <copyright>Copyright 2023</copyright>
     <tags>sdk payment fondy</tags>
 	<dependencies>
-		<dependency id="Newtonsoft.Json" version="13.0.1" />
+		<dependency id="Newtonsoft.Json" version="13.0.3" />
 	</dependencies>
   </metadata>
   <files>
